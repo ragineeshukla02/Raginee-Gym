@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raginee Fitness</title>
+</head>
+<link
+    href="https://fonts.googleapis.com/css2?family=Julee&family=Kanit:wght@500&family=Oswald:wght@200&family=Poppins:ital,wght@1,900&display=swap"
+    rel="stylesheet">
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: rgb(7, 7, 7);
+        margin: 0px;
+        padding: 0px;
+        background: url(./beautiful.jpg);
+        background-size: 1500px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 75px;
+    }
+
+    .left img {
+        width: 140px;
+        filter: drop-shadow(40%);
+
+    }
+
+    .left div {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 8px;
+    }
+
+    .left div:hover {
+        color: #8b888a;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 145px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 30px;
+        top: 140px;
+        display: inline-block;
+    }
+
+    .navbar li {
+        padding: 4px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .navbar li a {
+        color: rgb(8, 8, 8);
+        text-decoration: none;
+        padding: 6px 12px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(122, 119, 119);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        font-size: 14px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .btn:hover {
+        color: #434744;
+        background-color: rgb(247, 247, 121);
+    }
+
+    .container {
+        border: 2px solid rgb(7, 7, 7);
+        margin: 210px 60px;
+        padding: 30px 24px;
+        width: 35%;
+        border-radius: 20px;
+    }
+
+    .form-group input {
+        color: black;
+        text-align: center;
+        display: block;
+        width: 300px;
+        margin: 9px auto;
+        padding: 2px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .container button {
+        display: block;
+        width: 65%;
+        margin: 12px auto;
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .container button:hover {
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="./man-7328236_1280.png" alt="">
+            <div>Raginee Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">FITNESS CALCULATOR</a></li>
+                <li><a href="">SCHEDULE</a></li>
+                <li><a href="">CONTECT US</a></li>
+            </ul>
+        </div>
+        <!-- righyt box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Hyderabad Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+
+    </div>
+</body>
+
+</html
